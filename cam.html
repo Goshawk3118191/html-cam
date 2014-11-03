@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src= 'jquery-2.1.1.js'></script>
+  </head>
+  <body>
+    <video id='video' width='640px' height='480px' autoplay></video>
+    <label for= 'sepia'>Sepia</label>
+    <input id='sepia' type='range' min=0 max=100>
+    <input id='sepiaOutput' type='text' value=''>
+    <button id='button'>Take A Photo</button>
+    <audio id='demov' src='' width='320px' height='240px' controls autoplay preload='auto'></audio>
+    <video id='demoa' src='http://video.webmfiles.org/elephants-dream.webm' controls=''></video>
+    <canvas id='photo' width='320px' height='240px'></canvas>
+    <script type="text/javascript" src='cam.js'></script>
+  </body>
+</html>

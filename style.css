@@ -1,0 +1,9 @@
+video {
+  opacity: 1.0;
+  z-index: 10;
+}
+canvas {
+  position: relative;
+  display: inline;
+  /*-webkit-filter: grayscale(100%);*/
+}
